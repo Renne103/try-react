@@ -1,0 +1,19 @@
+.app {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.top-section {
+    flex: 1; /* Make the top section take up less space */
+    border: 1px solid #ddd; 
+    padding: 20px;
+    background-color: aqua;
+}
+  
+  .bottom-section {
+    flex: 2; /* Make the bottom section take up more space */
+    border: 1px solid #ddd;
+    padding: 20px;
+    background-color:blueviolet;
+}
